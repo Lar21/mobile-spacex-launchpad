@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "SpaceX Launch Tracker",
+    "slug": "spacex-qa-challenge",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "spacex",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.pontotel.spacexqachallenge"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#000000"
+      },
+      "package": "com.pontotel.spacexqachallenge"
+    },
+    "plugins": [
+      "expo-splash-screen"
+    ]
+  }
+}
